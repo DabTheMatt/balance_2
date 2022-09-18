@@ -3,6 +3,7 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import About from "./components/About/About";
 import AskBalance from "./components/AskBalance/AskBalance";
+import Answer from "./components/Answer/Answer";
 
 export default function App() {
   return (
@@ -13,9 +14,10 @@ export default function App() {
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
 
-          <Route index element={<HomePage />} />
-          <Route path="about" element={<About />} />
-          <Route path="askbalance" element={<AskBalance />} />
+          <Route path="/balance_2/" element={<HomePage />} />
+          <Route path="/balance_2/about" element={<About />} />
+          <Route path="/balance_2/askbalance" element={<AskBalance />} />
+          <Route path="/balance_2/answer" element={<Answer name={'dsds'}/>} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -35,10 +37,10 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/balance_2/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/balance_2/about">About</Link>
           </li>
           <li>
             <Link to="/dashboard">Dashboard</Link>

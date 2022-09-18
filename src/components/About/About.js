@@ -5,10 +5,10 @@ export default function About() {
         <div>
             <h1>About</h1>
             <div>
-                <Link to="/askbalance">to Ask Balance <sapn> >> </sapn></Link>
+                <Link to="/balance_2/askbalance">to Ask Balance</Link>
             </div>
             <div>
-                <Link to="/">to Home Page</Link>
+                <Link to="/balance_2/">to Home Page</Link>
             </div>
     </div>
     );

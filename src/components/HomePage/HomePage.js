@@ -5,10 +5,10 @@ export default function HomePage() {
       <div>
         <h1>Home Page</h1>
         <div>
-            <Link to="/AskBalance">check <sapn> >> </sapn></Link>
+            <Link to="/balance_2/askbalance">check</Link>
         </div>
         <div>
-            <Link to="/About">about</Link>
+            <Link to="/balance_2/about">about</Link>
         </div>
         <div>v0.4-alpha-lightning</div>
       </div>
