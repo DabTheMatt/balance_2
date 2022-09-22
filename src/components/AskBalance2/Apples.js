@@ -1,10 +1,11 @@
 import React from "react";
-import apple from "../../assets/train/apple_bw.jpg"
+import ImageToggle from "./ImageToggle";
 
 const Apples = () => {
     return (
         <div>
-            <img class="train-apple" src={require("../../assets/train/apple_bw.jpg")} />
+            <ImageToggle primaryImg={require("../../assets/train/apple_bw.jpg")} secondaryImg={require("../../assets/train/apple_col.jpg")}/>
+           
         </div>
     )
 }
