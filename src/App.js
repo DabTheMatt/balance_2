@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import AskBalance from "./components/AskBalance/AskBalance";
 import Answer from "./components/Answer/Answer";
 import Apples from "./components/AskBalance2/Apples";
+import BalanceGame from "./components/BalanceGame/BalanceGame";
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
           <Route path="/balance_2/answer" element={<Answer />} />
 
           <Route path="/balance_2/train" element={<Apples />} />
+          <Route path="/balance_2/game" element={<BalanceGame />} />
+
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
