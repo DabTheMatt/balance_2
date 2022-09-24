@@ -10,6 +10,9 @@ export default function HomePage() {
         <div>
             <Link to="/balance_2/about">about</Link>
         </div>
+        <div>
+            <Link to="/balance_2/game">game</Link>
+        </div>
         <div>v0.4-alpha-lightning</div>
       </div>
     );
