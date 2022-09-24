@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/balance_2/static/css/main.69566baa.css",
-    "main.js": "/balance_2/static/js/main.cf9d182d.js",
+    "main.js": "/balance_2/static/js/main.55e0d069.js",
     "static/media/apple_col.jpg": "/balance_2/static/media/apple_col.49915d730b06ef675fce.jpg",
     "static/media/apple_bw.jpg": "/balance_2/static/media/apple_bw.efdf894e40aea0b36420.jpg",
     "index.html": "/balance_2/index.html",
     "main.69566baa.css.map": "/balance_2/static/css/main.69566baa.css.map",
-    "main.cf9d182d.js.map": "/balance_2/static/js/main.cf9d182d.js.map"
+    "main.55e0d069.js.map": "/balance_2/static/js/main.55e0d069.js.map"
   },
   "entrypoints": [
     "static/css/main.69566baa.css",
-    "static/js/main.cf9d182d.js"
+    "static/js/main.55e0d069.js"
   ]
 }
