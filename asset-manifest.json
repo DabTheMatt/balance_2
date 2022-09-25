@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/balance_2/static/css/main.ee2c7b6e.css",
-    "main.js": "/balance_2/static/js/main.fb1f6ac3.js",
+    "main.css": "/balance_2/static/css/main.c226d7a1.css",
+    "main.js": "/balance_2/static/js/main.bc4373fc.js",
     "static/media/apple_col.jpg": "/balance_2/static/media/apple_col.49915d730b06ef675fce.jpg",
     "static/media/apple_bw.jpg": "/balance_2/static/media/apple_bw.efdf894e40aea0b36420.jpg",
     "index.html": "/balance_2/index.html",
-    "main.ee2c7b6e.css.map": "/balance_2/static/css/main.ee2c7b6e.css.map",
-    "main.fb1f6ac3.js.map": "/balance_2/static/js/main.fb1f6ac3.js.map"
+    "main.c226d7a1.css.map": "/balance_2/static/css/main.c226d7a1.css.map",
+    "main.bc4373fc.js.map": "/balance_2/static/js/main.bc4373fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee2c7b6e.css",
-    "static/js/main.fb1f6ac3.js"
+    "static/css/main.c226d7a1.css",
+    "static/js/main.bc4373fc.js"
   ]
 }
