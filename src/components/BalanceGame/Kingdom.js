@@ -42,7 +42,7 @@ const Kingdom = ({name, attitude, relations, classColor, handleBuy, handleSell, 
       }, [time, clockActive]);
 
     return (
-        <div className={`grid-item ${bcgColor}`} style={{background: `rgba(${hostile}, ${kingdomBackgroundOpacity})`}}>
+        <div className={`grid-item ${bcgColor}`} >
             <h2>{name}</h2>
             <p>{bcgColor}</p>
             <p>Attitude to My Kingdom: {attitude}</p>

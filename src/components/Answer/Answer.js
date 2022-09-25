@@ -4,10 +4,13 @@ import { Routes, Route, Outlet, Link, useLocation } from "react-router-dom";
 export default function Answer(props) {
 
     const {state} = useLocation();
-    const { what, howMany } = state;
+    const { what, howMany, size } = state;
+    console.log('howMany', howMany);
+
+    const [base, setBase] = useState(howMany / size);
     
     const arrayLength = useRef([...Array(parseInt(howMany)).keys()]);
-    console.log('al', arrayLength);
+    console.log('al', arrayLength, size);
 
     return (
         <div>
@@ -17,7 +20,7 @@ export default function Answer(props) {
             <h3>za {howMany}</h3>
             
             <div className="images-container" ref={arrayLength}> 
-                <p>{arrayLength.current}</p>
+                <p></p>
                 {
 
                     arrayLength.current.map(function(el, key) {

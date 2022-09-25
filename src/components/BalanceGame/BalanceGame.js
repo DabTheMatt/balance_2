@@ -42,7 +42,7 @@ const BalanceGame = () => {
             index: 1,
             name: "Dogs",
             startingMoney: 20,
-            relations: 50,
+            relations: 128,
             attitude: 'friendly'
             }
          })

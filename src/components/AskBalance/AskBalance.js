@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route, Outlet, Link, useNavigate } from "react-router-dom";
 
 import Answer from '../Answer/Answer';
@@ -6,12 +6,24 @@ import Answer from '../Answer/Answer';
 export default function AskBalance() {
     const [howMany, setHowMany] = useState('');
     const [what, setWhat] = useState('');
+    const [size, setSize] = useState(1);
     const navigate = useNavigate();
+    let small = 0.15;
+    let medium = 1;
+    let big = 4;
 
+    
+    
+    
     const handleSubmit= (e) =>  {
-        navigate('/balance_2/answer', {state:{howMany:howMany,what:what}});
+        if (howMany < 10){
+          navigate('/balance_2/answer', {state:{howMany:howMany, what:what, size:2}});
+        } else if (howMany >= 10) {
+          navigate('/balance_2/answer', {state:{howMany:howMany, what:what, size:2}});
+        } else if (howMany >= 20) {
+          navigate('/balance_2/answer', {state:{howMany:howMany, what:what, size:2}});
+        }
       };
-
     return (
         <div>
             <h1>Ask Me!</h1>
